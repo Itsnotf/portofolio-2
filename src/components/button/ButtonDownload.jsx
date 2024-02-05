@@ -19,7 +19,7 @@ export default function ButtonDownload() {
         const url = window.URL.createObjectURL(blob);
         const link = document.createElement('a');
         link.href = url;
-        link.download = 'Download.pdf';
+        link.download = 'PORTOFOLIO_FAIZ_AFLAH HAFIZUDDIN.pdf';
         link.click();
         window.URL.revokeObjectURL(url);
     };

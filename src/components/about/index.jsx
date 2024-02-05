@@ -1,13 +1,14 @@
 "use client"
 
-import React from "react";
+
 import Image from "next/image";
 import cardfais from "../../../public/assets/cardfais.png";
 import { motion, useScroll } from "framer-motion"
 import { useRef } from "react";
+import { forwardRef } from "react";
 
 
-const About = React.forwardRef((props, ref) => {
+const About = forwardRef((props, ref) => {
 
     const animateRef = useRef(null)
     const { scrollYProgress } = useScroll({

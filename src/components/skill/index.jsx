@@ -1,9 +1,9 @@
-import React from "react";
 import Image from "next/image";
 import SkillIcons from "../../../public/assets/SkillIcons.svg";
 import Carousel from "./carousel";
+import { forwardRef } from "react";
 
-const Skill = React.forwardRef((props, ref) => {
+const Skill = forwardRef((props, ref) => {
     return (
         <div ref={ref} className="w-full h-auto flex flex-col  bg-[#060817] pb-10">
             <div className="w-full flex flex-row items-center justify-between   ">

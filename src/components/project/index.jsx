@@ -1,9 +1,9 @@
-import React from "react";
 import Image from "next/image";
 import ProjectIcons from "../../../public/assets/ProjectIcons.svg";
 import CarouselProject from "./CarouselProject";
+import { forwardRef } from "react";
 
-const Projects = React.forwardRef((props, ref) => {
+const Projects = forwardRef((props, ref) => {
     return (
         <div ref={ref} className="w-full h-auto flex flex-col justify-evenly items-center bg-[#060817] py-32 ">
             <div className="w-full flex flex-row items-center justify-between mb:pb-20  ">
