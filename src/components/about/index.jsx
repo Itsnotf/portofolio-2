@@ -19,10 +19,7 @@ const About = forwardRef((props, ref) => {
 
 
     return (
-
-
         <div
-
             ref={ref} className="w-full h-auto flex flex-row md:justify-evenly justify-center items-center bg-[#060817] py-32">
             <div className="w-[424px] h-auto md:flex hidden">
                 <motion.div
@@ -72,5 +69,7 @@ const About = forwardRef((props, ref) => {
 
     );
 });
+
+About.displayName = "About";
 
 export default About;
