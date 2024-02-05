@@ -7,6 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        pink: "#BB84E8",
+        putih: "#FDFDFD",
+        putih2: "#DEE1E6",
+        abu: "#292040",
+      },
+      fontFamily: {
+        Manrope: ["var(--font-Manrope)"],
+        Lexend: ["var(--font-lexend)"],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
